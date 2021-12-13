@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<db>
+	<delegaciones>
+		<delegacion id="1">
+			<ciudad>OLMEDILLO DE ROA</ciudad>
+			<direccion>CARRETERA CATALUNYA, 67</direccion>
+			<telefono>909230555</telefono>
+			<email>klcben9l@netscape.net</email>
+			<central>true</central>
+		</delegacion>
+		<delegacion id="2">
+			<ciudad>TORRE VAL DE SAN PEDRO</ciudad>
+			<direccion>VIA NUEVA, 14</direccion>
+			<telefono>965398565</telefono>
+			<email>v0nmb6vcs4@netscape.net</email>
+			<central>false</central>
+		</delegacion>
+		<delegacion id="3">
+			<ciudad>CUBILLO</ciudad>
+			<direccion>EDIFICIO CATALUNYA, 8</direccion>
+			<telefono>935660348</telefono>
+			<email>46fm725a@yahoo.com</email>
+			<central>false</central>
+		</delegacion>
+	</delegaciones>
+	<listaPersonal>
+		<personal id="1">
+			<nombre>Manolo Fernández</nombre>
+			<nif>32165487A</nif>
+			<direccion>Calle Falsa, 123</direccion>
+			<tipoPersonal>Empleado</tipoPersonal>
+			<salario>1000.0</salario>
+			<delegacionId>2</delegacionId>
+		</personal>
+		<personal id="2">
+			<nombre>Rafael Domínguez</nombre>
+			<nif>798456A</nif>
+			<direccion>Calle de la Piruleta, 3</direccion>
+			<tipoPersonal>Colaborador</tipoPersonal>
+			<areaColaboracion>Comedor</areaColaboracion>
+			<delegacionId>1</delegacionId>
+		</personal>
+		<personal id="3">
+			<nombre>María Álvarez</nombre>
+			<nif>54266354A</nif>
+			<direccion>Av. Buenos Aires, 23</direccion>
+			<tipoPersonal>Voluntario_Nacional</tipoPersonal>
+			<tareaDesempena>Ropa</tareaDesempena>
+			<ciudad>Tenerife</ciudad>
+			<delegacionId>1</delegacionId>
+		</personal>
+		<personal id="4">
+			<nombre>Angela Nieto</nombre>
+			<nif>987654231A</nif>
+			<direccion>Av. Poblado, 9</direccion>
+			<tipoPersonal>Voluntario_Internacional</tipoPersonal>
+			<tareaDesempena>Oficinas</tareaDesempena>
+			<pais>Italia</pais>
+			<delegacionId>1</delegacionId>
+		</personal>
+	</listaPersonal>
+	<proyectos>
+		<proyecto>
+			<nombre>Proyecto 1</nombre>
+			<pais>España</pais>
+			<localizacion>Arbo</localizacion>
+			<lineaAccion>1</lineaAccion>
+			<subLineaAccion>1.1</subLineaAccion>
+			<fechaInicio>04/01/2021</fechaInicio>
+			<fechaFin>04/01/2021</fechaFin>
+			<socioLocal>Me</socioLocal>
+			<financiador>Aquel</financiador>
+			<financiacionAportada>100</financiacionAportada>
+			<personalAsociado>
+				<personalId>1</personalId>
+			</personalAsociado>
+			<delegacionId>1</delegacionId>
+		</proyecto>
+		<proyecto>
+			<nombre>Proyecto Test</nombre>
+			<pais>España</pais>
+			<localizacion>Arbo</localizacion>
+			<lineaAccion>1</lineaAccion>
+			<subLineaAccion>Saneamiento</subLineaAccion>
+			<fechaInicio>04/01/2021</fechaInicio>
+			<fechaFin>04/01/2021</fechaFin>
+			<socioLocal>Me</socioLocal>
+			<financiador>Aquel</financiador>
+			<financiacionAportada>100</financiacionAportada>
+			<personalAsociado>
+				<personalId>1</personalId>
+				<personalId>3</personalId>
+			</personalAsociado>
+			<delegacionId>2</delegacionId>
+		</proyecto>
+	</proyectos>
+</db>
